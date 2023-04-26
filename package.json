@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.3.0",
+    "mongoose": "^7.0.5"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "name": "Cartola2026",
+  "version": "1.0.0",
+  "description": "API cartola do grupo copa2026",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "build": "tsup src"
+  },
+  "author": "Henrique Alves",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "tsup": "^6.7.0"
+  }
+}
